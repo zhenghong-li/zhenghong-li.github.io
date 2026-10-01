@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Zhenghong Li — undergraduate student in the Tsung-Dao Lee Class, School of Physics and Astronomy, Shanghai Jiao Tong University."
+      content="Zhenghong Li (李政宏), a physics undergraduate at Shanghai Jiao Tong University working on ARPES, quantum materials, and AI for science."
     />
     <meta name="color-scheme" content="light" />
     <title>Zhenghong Li</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -18,76 +19,179 @@
       <header class="site-header">
         <a class="wordmark" href="#top" aria-label="Zhenghong Li, back to top">ZL<span aria-hidden="true">.</span></a>
         <nav aria-label="Main navigation">
-          <a href="#research">Research</a>
-          <a href="#work">Current work</a>
+          <a href="#work">Research</a>
+          <a href="#background">Background</a>
+          <a href="#cv">CV</a>
         </nav>
       </header>
 
       <main id="main">
         <section class="intro" id="top" aria-labelledby="name">
-          <p class="eyebrow">Physics &amp; scientific AI</p>
-          <h1 id="name">Zhenghong Li</h1>
-          <p class="lead">
-            Undergraduate student, Tsung-Dao Lee Class
-          </p>
-          <p class="affiliation">
-            <a href="https://www.physics.sjtu.edu.cn/en/">School of Physics and Astronomy</a><br />
-            Shanghai Jiao Tong University &middot; Enrolled in 2024
-          </p>
-          <p class="intro-detail">
-            I am interested in condensed-matter physics and how AI agents
-            work on scientific problems.
-          </p>
-          <div class="profile-links" aria-label="Contact and profile links">
-            <a href="mailto:theodorelee@sjtu.edu.cn">theodorelee@sjtu.edu.cn</a>
-            <a href="mailto:lizhenghong06@gmail.com">lizhenghong06@gmail.com</a>
-            <a href="https://github.com/zhenghong-li">GitHub <span aria-hidden="true">↗</span></a>
+          <div class="intro-copy">
+            <p class="eyebrow">Physics &amp; scientific AI</p>
+            <h1 id="name">Zhenghong Li <span class="name-chinese" lang="zh-Hans">李政宏</span></h1>
+            <p class="lead">Undergraduate student, Tsung-Dao Lee Class</p>
+            <p class="affiliation">
+              <a href="https://www.physics.sjtu.edu.cn/en/">School of Physics and Astronomy</a><br />
+              Shanghai Jiao Tong University &middot; Enrolled in 2024
+            </p>
+            <p class="intro-detail">
+              I study condensed-matter physics and AI for science, with a focus
+              on photoemission experiments, quantum materials, and AI agents
+              that connect calculations with experimental evidence.
+            </p>
+            <p class="intro-detail">
+              My research advisors are
+              <a href="https://tdli.sjtu.edu.cn/en/people/41168/hong-ding">Hong Ding</a>
+              and <a href="https://tdli.sjtu.edu.cn/en/people/41160/baiqing-lv">Baiqing Lv</a> at the
+              Tsung-Dao Lee Institute, Shanghai Jiao Tong University.
+            </p>
+            <div class="profile-links" aria-label="Contact and profile links">
+              <a href="mailto:theodorelee@sjtu.edu.cn">theodorelee@sjtu.edu.cn</a>
+              <a href="mailto:lizhenghong06@gmail.com">lizhenghong06@gmail.com</a>
+              <a href="https://github.com/zhenghong-li">GitHub <span aria-hidden="true">↗</span></a>
+              <a href="assets/cv/zhenghong-li-cv-en.pdf">CV (PDF)</a>
+            </div>
+          </div>
+          <img
+            class="profile-photo"
+            src="assets/zhenghong-li.png"
+            alt="Portrait of Zhenghong Li"
+            width="1106"
+            height="1422"
+            decoding="async"
+          />
+        </section>
+
+        <section class="content-section" id="work" aria-labelledby="work-title">
+          <div class="section-heading">
+            <span class="section-number" aria-hidden="true">01</span>
+            <h2 id="work-title">Research experience</h2>
+          </div>
+          <div class="project-list">
+            <article class="project">
+              <div class="project-heading">
+                <h3>ARPES with in situ electric and magnetic fields</h3>
+                <span class="project-category">Experimental physics</span>
+              </div>
+              <p>
+                I designed and built a magnetic-field angle-resolved photoemission
+                spectroscopy (ARPES) system and collected spectra at fields up to
+                50 mT. I also designed an integrated electric- and magnetic-field
+                sample holder and used COMSOL to model field distributions and
+                photoelectron collection.
+              </p>
+            </article>
+            <article class="project">
+              <div class="project-heading">
+                <h3>Experiment-guided AI-DFT agent</h3>
+                <span class="project-category">AI for science</span>
+              </div>
+              <p>
+                I am developing an AI workflow that cross-checks density functional
+                theory (DFT) calculations against ARPES, scanning tunneling
+                microscopy (STM), and optical measurements. Experimental feedback
+                guides calculation strategies and physical interpretation as the
+                workflow expands from simple systems to complex materials.
+              </p>
+            </article>
+            <article class="project">
+              <div class="project-heading">
+                <h3>FrontierPhysics</h3>
+                <span class="project-category">AI physics research benchmark</span>
+              </div>
+              <p>
+                I contribute to benchmark task design and iteration, and review
+                derivations, model assumptions, and numerical results in other
+                tasks. My work evaluates AI agents' physical reasoning, inference
+                from noisy data, and experimental decisions.
+              </p>
+              <p class="project-note">Related work submitted to ICLR.</p>
+              <!-- Add a public project or paper link when one is available. -->
+            </article>
+            <article class="project">
+              <div class="project-heading">
+                <h3>Nickelate superconductors</h3>
+                <span class="project-category">Zhiyuan Future Scholars Project</span>
+              </div>
+              <p>
+                I lead a project exploring substrate preparation and thin-film
+                growth, supported by RMB 100,000 in research funding. I use AFM,
+                RHEED, XRD, and low-temperature electrical transport measurements
+                to characterize surface morphology, structure, and transport.
+              </p>
+            </article>
           </div>
         </section>
 
         <section class="content-section" id="research" aria-labelledby="research-title">
           <div class="section-heading">
-            <span class="section-number" aria-hidden="true">01</span>
+            <span class="section-number" aria-hidden="true">02</span>
             <h2 id="research-title">Research interests</h2>
           </div>
           <div class="interest-grid">
             <article class="interest">
               <h3>Condensed-matter physics</h3>
-              <p>Physical models and problems in condensed matter.</p>
+              <p>Quantum materials, photoemission spectroscopy, and superconducting thin films.</p>
             </article>
             <article class="interest">
               <h3>AI agents for science</h3>
-              <p>How AI agents approach and solve physics problems.</p>
+              <p>Connecting electronic-structure calculations with experimental feedback.</p>
             </article>
             <article class="interest">
               <h3>Scientific evaluation</h3>
-              <p>Task development and review for physics benchmarks.</p>
+              <p>Physical reasoning, inference from noisy data, and experimental decisions.</p>
             </article>
           </div>
         </section>
 
-        <section class="content-section" id="work" aria-labelledby="work-title">
+        <section class="content-section" id="background" aria-labelledby="background-title">
           <div class="section-heading">
-            <span class="section-number" aria-hidden="true">02</span>
-            <h2 id="work-title">Current work</h2>
+            <span class="section-number" aria-hidden="true">03</span>
+            <h2 id="background-title">Education &amp; honors</h2>
           </div>
-          <article class="project">
-            <div class="project-heading">
-              <h3>FrontierPhysics</h3>
-              <span class="project-category">Physics benchmark</span>
+          <div class="background-grid">
+            <div class="education">
+              <h3>Shanghai Jiao Tong University</h3>
+              <p class="education-dates">2024&ndash;2028 (expected)</p>
+              <p>Physics (Strong Foundation Program)<br />Tsung-Dao Lee Class</p>
+              <p class="academic-result">Overall average: 91.26/100<br />Rank: 3/50</p>
             </div>
-            <p>
-              I contribute to the development and review of benchmark tasks,
-              with an interest in condensed-matter physics and the evaluation
-              of AI agents on physics problems.
-            </p>
-            <!-- Add a public project link only after confirming anonymous access. -->
-          </article>
+            <div class="honors">
+              <h3>Selected honors</h3>
+              <ul class="honors-list">
+                <li>Shanghai Municipal Scholarship</li>
+                <li>SJTU Undergraduate Excellence Scholarship, Grade B</li>
+                <li>Champion, SJTU RoboCup Small Size League Technical Challenge</li>
+                <li>COPT-Sponsored Special Optimization Award, Celian Cup Mathematical Modeling Elite League</li>
+                <li>Third Prize, HelloHPC Supercomputing Cluster Optimization Competition</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section" id="cv" aria-labelledby="cv-title">
+          <div class="section-heading">
+            <span class="section-number" aria-hidden="true">04</span>
+            <h2 id="cv-title">Curriculum vitae</h2>
+          </div>
+          <p class="cv-description">My full education, research experience, honors, and activities.</p>
+          <div class="cv-links" aria-label="Download curriculum vitae">
+            <a class="cv-link" href="assets/cv/zhenghong-li-cv-en.pdf" download="Zhenghong-Li-CV-English.pdf">
+              English CV <span class="file-format">PDF <span aria-hidden="true">↓</span></span>
+            </a>
+            <a class="cv-link" href="assets/cv/zhenghong-li-cv-zh.pdf" download="Zhenghong-Li-CV-Chinese.pdf">
+              <span lang="zh-Hans">中文简历</span> <span class="file-format">PDF <span aria-hidden="true">↓</span></span>
+            </a>
+          </div>
+          <p class="cv-alternative">
+            Also available: <a href="assets/cv/zhenghong-li-cv-zh-photo.pdf" download="Zhenghong-Li-CV-Chinese-With-Photo.pdf" lang="zh-Hans">中文简历（含照片）</a>.
+          </p>
         </section>
       </main>
 
       <footer class="site-footer">
-        <span>Zhenghong Li</span>
+        <span>Zhenghong Li &middot; Updated <time datetime="2026-10-01">October 2026</time></span>
         <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
       </footer>
     </div>
